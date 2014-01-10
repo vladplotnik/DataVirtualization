@@ -37,7 +37,7 @@ namespace DataVirtualization.ViewModel
 
         private Task<QueryOperationResponse<Order>> GetQueryResults(int start, int pageSize, IList<SortDescription> sortDescriptions)
         {
-            var context = new NorthwindEntities(new Uri("http://services.odata.org/Northwind/Northwind.svc/"));
+            var context = new NorthwindEntities(new Uri("http://localhost/WebApp/Northwind.svc/"));
 
             var orderByString = CreateOrderByString(sortDescriptions);
             var query = context.Orders

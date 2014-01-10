@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="c544e077-9f61-448f-bda3-dd5b9f8bcf4b" xmlns="urn:schemas-microsoft-com:xml-dataservicemap">
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="c33d2d72-9e7f-48d7-9ecb-8a633110382e" xmlns="urn:schemas-microsoft-com:xml-dataservicemap">
   <MetadataSources>
-    <MetadataSource Address="http://services.odata.org/Northwind/Northwind.svc/" Protocol="http" SourceId="1" />
+    <MetadataSource Address="http://localhost/WebApp/Northwind.svc/" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="service.edmx" MetadataType="Edmx" ID="4bfb1fa5-8b09-4909-96c7-7c93f2c1dc94" SourceId="1" SourceUrl="http://services.odata.org/Northwind/Northwind.svc/" />
+    <MetadataFile FileName="service.edmx" MetadataType="Edmx" ID="e14557cf-bf7c-4c98-a9ce-da091af36e11" SourceId="1" SourceUrl="http://localhost/WebApp/Northwind.svc/" />
   </Metadata>
   <Extensions />
   <Parameters>
